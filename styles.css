@@ -27,6 +27,17 @@ header p {
     font-size: 1.2rem;
 }
 
+/* Imagen del perfil */
+.profile-pic {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* Main Content */
 main {
     padding: 2rem;
@@ -58,6 +69,16 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Imagen de la portada del libro */
+.book-cover {
+    display: block;
+    margin: 1rem auto;
+    max-width: 200px;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 /* Footer Styles */
